@@ -73,6 +73,13 @@ h1 {
   font-size: 1.4rem;
   position: absolute;
   top: 2rem;
+  right: 12rem;
+}
+
+.instr {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 5rem;
   right: 2rem;
 }
 
@@ -116,4 +123,9 @@ h1 {
 
 .label-score {
   margin-bottom: 2rem;
+}
+input {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  margin: 0;
 }

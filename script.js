@@ -42,7 +42,7 @@ document.querySelector('.again').addEventListener('click', function () {
   displayMessage('Start guessing...');
   lives(score);
   points('?');
-  document.querySelector('.guess').value = '';
+  document.querySelector('.guess').value = '1';
   document.querySelector('body').style.backgroundColor = '#222';
   document.querySelector('.number').style.width = '15rem';
 });
